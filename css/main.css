@@ -1,0 +1,101 @@
+body {
+    margin: 0% auto;
+    background-color: #141414;
+    font-family: 'Courier New', Courier, monospace;
+}
+header {
+    width: 100%;
+    background-color: #769e71;
+    height: 60px;
+    display: inline-table;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    z-index: 21;
+}
+.nav_cont {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main_cont {
+    width: 100%;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.head_cont {
+    width: 100%;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.titles {
+    margin-top: 48px;
+    padding-top: 25px;
+    color: #64e0a2;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+}
+.stats {
+    border: 2px solid #64e0a2;
+    border-radius: 24px;
+    margin-top: 150px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.text {
+    color: #64e0a2;
+    font-style: normal; 
+    font-weight: normal; 
+    font-size: 32px; 
+    line-height: 37px; 
+    text-align: center;
+}
+.button {
+    background: rgb(0, 0, 0);
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    position: relative;
+    border: 2px solid;
+    border-radius: 5px;
+    transition: 1.5s;
+}
+.button:hover {
+    border-radius: 60px;
+    color: #9650e6;
+}
+.button2 {
+    background: rgb(0, 0, 0);
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    position: relative;
+    border: 2px solid;
+    border-radius: 5px;
+    transition: 1.5s;
+}
+.button2:hover {
+    border-radius: 60px;
+    color: #64e0a2;
+}
+.line {
+    display: inline-block;
+}
